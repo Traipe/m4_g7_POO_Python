@@ -35,7 +35,7 @@ if paracetamol.IVA == aspirina.IVA  and paracetamol.descuento == aspirina.descue
 
 Medicamento.IVA = 0.19
 #ibuprofeno.modificar_atributo()
-print(ibuprofeno.IVA)
-print(aspirina.IVA)
+print(ibuprofeno.IVA)#0.19
+print(aspirina.IVA)#0.19
 print("")
 print(paracetamol.descuento,aspirina.descuento,ibuprofeno.descuento)#0.06 0.04 0.04

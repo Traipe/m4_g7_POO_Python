@@ -18,5 +18,13 @@ class Medicamento():
         #if, se podria reemplazar por self.validar_mayor ...
         if es_valido:
             self.precio = precio_entregado  
+            self.descuento = 0.0
+            
+            if self.precio >= 10000 and self.precio < 20000:
+                self.descuento = 0.1
+            elif self.precio >= 20000 and self.precio < 30000:
+                self.descuento = 0.2
+            elif self.precio >= 30000:
+                self.descuento = 0.3
         else:
             print(f"El precio {precio_entregado}, no es un valor valido")

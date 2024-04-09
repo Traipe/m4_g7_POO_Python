@@ -8,4 +8,6 @@ precio = int(input("Ingrese el precio del medicamento > "))
 
 #paso3: pasar al metodo de instancia el valor capturado 
 medicamento_nuevo.asigna_precio(precio)
-medicamento_nuevo.precio
+
+print(f"el precio es: ${medicamento_nuevo.precio}")
+print(f"el descuento es: ${medicamento_nuevo.descuento}")

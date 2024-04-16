@@ -34,11 +34,9 @@ class Tienda:
                 stock_info = ""
             elif self.tipo == "Supermercado" and producto.stock < 10:
                 stock_info = f", Pocos productos disponibles: {producto.stock}\n"
-            #elif self.tipo == "Farmacia":
-                #stock_info = ", Envío gratis al solicitar este producto" if producto.precio > 15000 else ""
             else:
                 stock_info = f", Stock: {producto.stock}\n"
-            lista_productos += f"Nombre: {producto.nombre}, Precio: {producto.precio}" + stock_info
+            lista_productos += f"Nombre: {producto.nombre}, Precio: {producto.precio}" + stock_info +"\n"
         return lista_productos
 
 #Método para realizar la venta de un producto
@@ -62,7 +60,6 @@ class Tienda:
         #Método de igualdad para comparar dos tiendas por su nombre
         return self.__nombre == otra.__nombre
 
-
 class Restaurante(Tienda):
     def __init__(self, nombre, costo_delivery):
         super().__init__(nombre, costo_delivery)
@@ -72,12 +69,10 @@ class Restaurante(Tienda):
     def realizar_venta(self, nombre_producto, cantidad):
         print(f"Venta realizada: {cantidad} unidades de {nombre_producto}")
 
-
 class Supermercado(Tienda):
     def __init__(self, nombre, costo_delivery):
         super().__init__(nombre, costo_delivery)
         self.tipo = "Supermercado"
-
 
 class Farmacia(Tienda):
     def __init__(self, nombre, costo_delivery):
@@ -91,9 +86,10 @@ class Farmacia(Tienda):
             stock_info = ""
             if producto.precio > 15000:
                 stock_info = ", Envío gratis al solicitar este producto\n"
-            lista_productos += f"Nombre: {producto.nombre}, Precio: {producto.precio}" + stock_info
+            lista_productos += f"Nombre: {producto.nombre}, Precio: {producto.precio}" + stock_info +"\n"
         return lista_productos
     
-    """def listar_productos(self):
+    """#Forma resumida
+    def listar_productos(self):
         return ''.join([f"Nombre: {producto.nombre}, Precio: {producto.precio}" + (", Envío gratis al solicitar este producto\n" if producto.precio > 15000 else "") 
                         for producto in self._Tienda__productos])"""

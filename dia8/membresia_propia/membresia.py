@@ -1,3 +1,5 @@
+#trabajo individual
+
 from abc import ABC, abstractmethod
 
 class Membresia(ABC):

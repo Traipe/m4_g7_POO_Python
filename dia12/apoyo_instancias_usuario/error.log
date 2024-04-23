@@ -13,3 +13,6 @@
 [2024-04-22 22:30:30] Error en línea 3: Expecting ',' delimiter: line 2 column 1 (char 99)
 [2024-04-22 22:30:30] Error en línea 6: Expecting property name enclosed in double quotes: line 1 column 40 (char 39)
 [2024-04-22 22:30:30] Error en línea 8: Expecting value: line 1 column 88 (char 87)
+[2024-04-23 10:13:17] Error en línea 3: Expecting ',' delimiter: line 2 column 1 (char 99)
+[2024-04-23 10:13:17] Error en línea 6: Expecting property name enclosed in double quotes: line 1 column 40 (char 39)
+[2024-04-23 10:13:17] Error en línea 8: Expecting value: line 1 column 88 (char 87)

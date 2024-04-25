@@ -12,3 +12,5 @@
 [2024-04-25 09:21:52] SubTipoInvalidoError: Subtipo de anuncio inválido, Subtipo: invalido
 [2024-04-25 09:27:15] LargoExcedidoError: El nombre de la campaña es demasiado largo
 [2024-04-25 09:27:15] SubTipoInvalidoError: Subtipo de anuncio inválido, Subtipo: invalido
+[2024-04-25 17:20:57] LargoExcedidoError: El nombre de la campaña es demasiado largo
+[2024-04-25 17:20:57] SubTipoInvalidoError: Subtipo de anuncio inválido, Subtipo: invalido

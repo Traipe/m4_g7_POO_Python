@@ -19,5 +19,7 @@ Este repositorio contiene los siguientes archivos relacionados con la gestión d
 ## Uso
 Para ejecutar el script de demostración `demo.py`, simplemente ejecuta el siguiente comando en tu terminal:
 
+-  python demo.py
+-  python3 demo.py
 ## Requisitos
 - Python 3.x

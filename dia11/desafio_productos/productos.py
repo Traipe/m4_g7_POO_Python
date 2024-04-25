@@ -10,7 +10,7 @@ class Producto():
 instancias = []
 
 #paso3: Abrir el archivo de texto que contiene los productos en modo lectura
-with open("productos.txt") as productos:
+with open("dia11/desafio_productos/productos.txt") as productos:
     #paso4: Leer la primera línea del archivo
     linea = productos.readline()
     
